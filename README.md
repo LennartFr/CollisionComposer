@@ -1,8 +1,7 @@
-# Blockchainintro  https://ibm.biz/lacollision
+# Blockchainintro  ibm.biz/lacollision
 
-                   [ibm.biz/lacollision](ibm.biz/lacollision)
-                   
-                   <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
+                                      
+ <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
 
 <b>A blockchain is a decentralized virtual ledger for recording transactions <b>without central authority </b> through a distributed cryptographic protocol. It is made up of three technologies 
 
