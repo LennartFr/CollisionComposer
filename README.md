@@ -3,33 +3,6 @@
                                       
  <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
 
-<b>A blockchain is a decentralized virtual ledger for recording transactions <b>without central authority </b> through a distributed cryptographic protocol. It is made up of three technologies 
-
-1. cryptographic algorithms, 
-1. a distributed protocol, 
-1. and replicated data 
-<p>
-which combined provide a trustworthy service to a group of nodes that do not fully trust each other. 
-<p>
-</i>
-<p>
-Source: https://www.zurich.ibm.com/dccl/papers/cachin_dccl.pdf
-
-
-# The Blockchain Distributed Ledger  
-  
-<img src="https://www.ibm.com/blogs/internet-of-things/wp-content/uploads/2017/05/2-1.jpg">
-<p> 
-A distributed ledger is a type of database that is shared, replicated, and synchronized among the members of a network. The distributed ledger records the transactions, such as the exchange of assets or data, among the participants in the network.
-
-Participants in the network govern and agree by consensus on the updates to the records in the ledger. No central, third-party mediator, such as a financial institution or clearinghouse, is involved.
-
-Every record in the distributed ledger has a timestamp and unique crytographic signature, thus making the ledger an auditable history of all transactions in the network. One implementation of distributed ledger technology is the open source Hyperledger Fabric blockchain.
-
-https://console.bluemix.net/docs/services/blockchain/index.html#ibm-blockchain-platform
-
-Hyperledger, 1,000 transactions/second
-
 <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
 
 # From the press: Blockchain in action <p> 
@@ -240,5 +213,30 @@ Chaincode is a piece of code that is written in one of the supported languages s
 
 Starting with the celebrated protocols for Byzantine Agreement established in 1982, consensus protocols have found widespread applications for keeping distributed systems healty and making cloud platforms operate continuously. </p> 
 
+<b>A blockchain is a decentralized virtual ledger for recording transactions <b>without central authority </b> through a distributed cryptographic protocol. It is made up of three technologies 
 
+1. cryptographic algorithms, 
+1. a distributed protocol, 
+1. and replicated data 
+<p>
+which combined provide a trustworthy service to a group of nodes that do not fully trust each other. 
+<p>
+</i>
+<p>
+Source: https://www.zurich.ibm.com/dccl/papers/cachin_dccl.pdf
+
+
+# The Blockchain Distributed Ledger  
+  
+<img src="https://www.ibm.com/blogs/internet-of-things/wp-content/uploads/2017/05/2-1.jpg">
+<p> 
+A distributed ledger is a type of database that is shared, replicated, and synchronized among the members of a network. The distributed ledger records the transactions, such as the exchange of assets or data, among the participants in the network.
+
+Participants in the network govern and agree by consensus on the updates to the records in the ledger. No central, third-party mediator, such as a financial institution or clearinghouse, is involved.
+
+Every record in the distributed ledger has a timestamp and unique crytographic signature, thus making the ledger an auditable history of all transactions in the network. One implementation of distributed ledger technology is the open source Hyperledger Fabric blockchain.
+
+https://console.bluemix.net/docs/services/blockchain/index.html#ibm-blockchain-platform
+
+Hyperledger, 1,000 transactions/second
 
