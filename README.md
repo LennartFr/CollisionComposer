@@ -47,19 +47,19 @@ It is also important to note the Hyperledger Fabric has HSM (Hardware Security M
 
 https://www.hyperledger.org/projects/composer
 
-## [Composer Playground](https://composer-playground.mybluemix.net/login)
+[Composer Playground](https://composer-playground.mybluemix.net/login)
 
 <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
 
-# [IBM Blockchain Platform Service](https://console.bluemix.net/catalog/services/blockchain)
+[IBM Blockchain Platform Service](https://console.bluemix.net/catalog/services/blockchain)
 
-# [IBM Blockchain Platform](https://console.bluemix.net/developer/blockchain/dashboard)
+[IBM Blockchain Platform](https://console.bluemix.net/developer/blockchain/dashboard)
 
-## [Launch a basic IBM Blockchain network on the IBM Container Service's free plan](https://ibm-blockchain.github.io)
+[Launch a basic IBM Blockchain network on the IBM Container Service's free plan](https://ibm-blockchain.github.io)
 
 <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband"> 
   
-# Designing and creating Blockchain applications with Hyperledger
+# Designing and creating Blockchain applications
 
 ## Step 1: Learn Design Thinking
 
