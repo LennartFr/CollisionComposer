@@ -18,9 +18,6 @@ IBM and Danish shipping giant Maersk are teaming up to form a new company whose 
 
 <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
 
-<img src="https://www.hyperledger.org/wp-content/uploads/2016/09/logo_hl_new.png">
-<p>
-
 <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
 
 # Hyperledger Fabric : http://hyperledger.org/
