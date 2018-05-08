@@ -72,61 +72,23 @@ Google RPC P2P Protocol<p>
 https://medium.com/@robertgreenfieldiv/hyperledger-blockchain-for-a-web-2-0-architecture-6d3c83818eb1
 <p>
 
-# Hyperledger main components 
-
 <img src="https://farm5.staticflickr.com/4660/25963918068_b7a6234a86_b.jpg" width="1024" height="539" alt="EndorsementConsensus">
 
 It is also important to note the Hyperledger Fabric has HSM (Hardware Security Module) support which is vital for safeguarding and managing digital keys for strong authentication. Hyperledger Fabric provides modified and unmodified PKCS11 for key generation, which supports cases like identity management that need more protection.
 
+# Hyperledger Composer
+
 <img src="https://farm1.staticflickr.com/968/27085403057_c8a2ccd0cc_z.jpg" width="640" height="202" alt="composer">
-## Hyperledger Composer
+
+https://www.hyperledger.org/projects/composer
+
+## [Composer Playground](https://composer-playground.mybluemix.net/login)
 
 
-
-### [Composer Playground](https://composer-playground.mybluemix.net/login)
-
-### Hyperledger Fabric
-
-### [IBM Blockchain Platform Service](https://console.bluemix.net/catalog/services/blockchain)
+# [IBM Blockchain Platform Service](https://console.bluemix.net/catalog/services/blockchain)
 ### [IBM Blockchain Platform](https://console.bluemix.net/developer/blockchain/dashboard)
 
 ## [Launch a basic IBM Blockchain network on the IBM Container Service's free plan](https://ibm-blockchain.github.io)
-
-
-## Channels
-A Hyperledger Fabric channel is a private “subnet” of communication between two or more specific network members, for the purpose of conducting private and confidential transactions. 
-
-## The Ledger and the State Database
-
-There are two place which "store" data in Hyperledger Fabric:
-### The ledger is the actual "blockchain". 
-It is a file-based ledger which stores serialized blocks. Each block has one or more transactions. <br>
-Each transaction contains a read-write set which modifies one or more key/value pairs. <br>
-The ledger is the definitive source of data and is immutable.
-
-### The state database holds the last known committed value for any given key. 
-It is populated when each peer validates and commits a transaction. <br>
-The state database can always be rebuilt from re-processing the ledger. <br>
-There are currently two options for the state database: an embedded LevelDB or an external CouchDB.
-<p>
-As an aside, if you are familiar with Hyperledger Fabric channels, there is a separate ledger for each channel as well.
-<p>
-When we query from where do we retrieve data?  1) from the blockchain chain or 2) from state db? <p>.
-If it is from state db how can it retrieve a specific key because you mentioned "state database holds the last known committed value for any given key" <p> 
-Queries or GetState in chaincode return data from the state db. They will only return the last value for a key. <p>
-If you want to get the entire history for a key, you need to enable the historical database in the configuration of your peer 
-
-### Chaincode.
-Like <b>Stored Procedures</b> in a traditional database, handles business logic. http://hyperledger-fabric.readthedocs.io/en/release/chaincode4ade.htm
-
-<img src="https://farm5.staticflickr.com/4523/38243385192_43d682cf94_o.png" width="910" height="483" alt="Hyperledger helloworld 2">
-<p>  
-Chaincode is a piece of code that is written in one of the supported languages such as Go or Java. It is installed and instantiated through an SDK or CLI onto a network of Hyperledger Fabric peer nodes, enabling interaction with that network's shared ledger. 
-  
- ### [Consensus](https://www.zurich.ibm.com/blockchain/) 
- <p>Today, consensus protocols exist in many variations, but all of them need a majority or even a qualified majority (such as 2/3 of the nodes) to be correct, whereas the remaining ones could fail, misbehave, or even act adversarially against finding consensus.
-
-Starting with the celebrated protocols for Byzantine Agreement established in 1982, consensus protocols have found widespread applications for keeping distributed systems healty and making cloud platforms operate continuously. </p> 
 
 
 
@@ -240,6 +202,43 @@ An enterprise-ready blockchain platform designed to accelerate the development, 
 ## Node-RED and Hyperledger Composer
 
 ## [Integrate your Blockchain with anything using Hyperledger Composer and NodeRed](https://medium.com/@CazChurchUk/integrate-your-blockchain-with-anything-using-hyperledger-composer-and-nodered-4226676f7e54)
+
+# Aopendix
+
+## Channels
+A Hyperledger Fabric channel is a private “subnet” of communication between two or more specific network members, for the purpose of conducting private and confidential transactions. 
+
+## The Ledger and the State Database
+
+There are two place which "store" data in Hyperledger Fabric:
+### The ledger is the actual "blockchain". 
+It is a file-based ledger which stores serialized blocks. Each block has one or more transactions. <br>
+Each transaction contains a read-write set which modifies one or more key/value pairs. <br>
+The ledger is the definitive source of data and is immutable.
+
+### The state database holds the last known committed value for any given key. 
+It is populated when each peer validates and commits a transaction. <br>
+The state database can always be rebuilt from re-processing the ledger. <br>
+There are currently two options for the state database: an embedded LevelDB or an external CouchDB.
+<p>
+As an aside, if you are familiar with Hyperledger Fabric channels, there is a separate ledger for each channel as well.
+<p>
+When we query from where do we retrieve data?  1) from the blockchain chain or 2) from state db? <p>.
+If it is from state db how can it retrieve a specific key because you mentioned "state database holds the last known committed value for any given key" <p> 
+Queries or GetState in chaincode return data from the state db. They will only return the last value for a key. <p>
+If you want to get the entire history for a key, you need to enable the historical database in the configuration of your peer 
+
+### Chaincode.
+Like <b>Stored Procedures</b> in a traditional database, handles business logic. http://hyperledger-fabric.readthedocs.io/en/release/chaincode4ade.htm
+
+<img src="https://farm5.staticflickr.com/4523/38243385192_43d682cf94_o.png" width="910" height="483" alt="Hyperledger helloworld 2">
+<p>  
+Chaincode is a piece of code that is written in one of the supported languages such as Go or Java. It is installed and instantiated through an SDK or CLI onto a network of Hyperledger Fabric peer nodes, enabling interaction with that network's shared ledger. 
+  
+ ### [Consensus](https://www.zurich.ibm.com/blockchain/) 
+ <p>Today, consensus protocols exist in many variations, but all of them need a majority or even a qualified majority (such as 2/3 of the nodes) to be correct, whereas the remaining ones could fail, misbehave, or even act adversarially against finding consensus.
+
+Starting with the celebrated protocols for Byzantine Agreement established in 1982, consensus protocols have found widespread applications for keeping distributed systems healty and making cloud platforms operate continuously. </p> 
 
 
 
