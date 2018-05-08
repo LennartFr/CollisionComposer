@@ -1,8 +1,5 @@
 # Blockchainintro  [ibm.biz/lacollision](https://ibm.biz/lacollision)
-
-                                      
- <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
-
+                           
 <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
 
 # From the press: Blockchain in action <p> 
