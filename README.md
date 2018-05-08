@@ -39,6 +39,8 @@ https://medium.com/@robertgreenfieldiv/hyperledger-blockchain-for-a-web-2-0-arch
 
 It is also important to note the Hyperledger Fabric has HSM (Hardware Security Module) support which is vital for safeguarding and managing digital keys for strong authentication. Hyperledger Fabric provides modified and unmodified PKCS11 for key generation, which supports cases like identity management that need more protection.
 
+<img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
+
 # Hyperledger Composer
 
 <img src="https://farm1.staticflickr.com/968/27085403057_c8a2ccd0cc_z.jpg" width="640" height="202" alt="composer">
@@ -47,13 +49,13 @@ https://www.hyperledger.org/projects/composer
 
 ## [Composer Playground](https://composer-playground.mybluemix.net/login)
 
+<img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
 
 # [IBM Blockchain Platform Service](https://console.bluemix.net/catalog/services/blockchain)
-### [IBM Blockchain Platform](https://console.bluemix.net/developer/blockchain/dashboard)
+
+# [IBM Blockchain Platform](https://console.bluemix.net/developer/blockchain/dashboard)
 
 ## [Launch a basic IBM Blockchain network on the IBM Container Service's free plan](https://ibm-blockchain.github.io)
-
-
 
 <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband"> 
   
